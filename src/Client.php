@@ -96,8 +96,8 @@ class Client
         }
 
         // fallback to compute engine
-        $auth = new \Google_Auth_ComputeEngine($this->client);
-        $this->client->setAuth($auth);
+        // $auth = new \Google_Auth_ComputeEngine($this->client);
+        // $this->client->setAuth($auth);
     }
 
     /**
